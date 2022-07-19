@@ -2,6 +2,9 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
+  router: {
+    base: '/nuxt_pos/'
+  },
   pwa: {
     meta: {
       title: 'My PWA',
